@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clamp</title>
+    <style>
+      h1 {
+        color: red;
+        font-size: clamp(50px, 70px, 40px);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Hello world!</h1>
+
+    <script>
+      let myName = "JS";
+      function show() {
+        let a = 3;
+
+        function test() {
+          console.log(a);
+        }
+
+        test();
+      }
+      show();
+      console.dir(show);
+    </script>
+  </body>
+</html>
